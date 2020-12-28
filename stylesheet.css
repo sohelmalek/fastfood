@@ -440,3 +440,25 @@
                                           background-attachment: fixed;
                                           background-repeat: no-repeat;
                                       }
+                                      
+                                      .contact-h1 {
+                                          font-size: 4rem;
+                                          font-weight: 900;
+                                          line-height: 0.9;
+                                          text-transform: capitalize;
+                                      }
+                                      
+                                      .contact-heading {
+                                          background: linear-gradient(#0000008c, #0000008c), url(img/contact-banner.jpg);
+                                          background-size: 100% 100%;
+                                          background-attachment: scroll;
+                                          background-repeat: no-repeat;
+                                      }
+                                      
+                                      .form-group .form-control {
+                                          background: no-repeat;
+                                          border: navajowhite;
+                                          border-bottom: 2px solid black;
+                                          padding-bottom: 10px;
+                                          border-radius: 10px;
+                                      }
