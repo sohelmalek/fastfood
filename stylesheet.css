@@ -1,0 +1,442 @@
+                                      html,
+                                      body {
+                                          font-family: 'Poppins', sans-serif;
+                                          -ms-overflow-style: none;
+                                          /* IE and Edge */
+                                          scrollbar-width: none;
+                                          /* Firefox */
+                                      }
+                                      
+                                      body::-webkit-scrollbar {
+                                          display: none;
+                                      }
+                                      
+                                      h2 {
+                                          font-family: 'Poppins';
+                                      }
+                                      
+                                      .owl-carousel {
+                                          display: block !important;
+                                      }
+                                      
+                                      #main-home .header-top div .item a {
+                                          color: #000000;
+                                      }
+                                      
+                                      #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+                                          padding: 15px;
+                                          color: #000000;
+                                      }
+                                      
+                                      #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
+                                          color: #e48100;
+                                      }
+                                      
+                                      #main-home .header-top div .item a:hover {
+                                          color: #e48100;
+                                          text-decoration: none;
+                                      }
+                                      
+                                      .bg-orange {
+                                          background-color: #e48100;
+                                      }
+                                      
+                                      .btn-theme {
+                                          background-color: #e48100;
+                                          padding: 5px 20px;
+                                          color: white;
+                                      }
+                                      
+                                      .btn-theme:hover {
+                                          color: white;
+                                          box-shadow: 0 0 0 3px rgb(255, 195, 16, 0.7);
+                                      }
+                                      
+                                      .text-orange {
+                                          color: #e48100;
+                                      }
+                                      
+                                      .text-red {
+                                          color: #bd2918;
+                                      }
+                                      
+                                      .collapse .navbar-nav .cart-icon {
+                                          padding: 5px 10px;
+                                          background-color: #e48100;
+                                          border-radius: 5px;
+                                          width: 50px;
+                                      }
+                                      
+                                      .collapse .navbar-nav .cart-icon i {
+                                          padding: 10px 10px;
+                                      }
+                                      
+                                      #banner-slider div .item .row div img {
+                                          height: 250px;
+                                          width: auto;
+                                      }
+                                      
+                                      #banner-slider div .item .row .slider-img {
+                                          justify-content: center;
+                                          display: flex;
+                                      }
+                                      
+                                      #main-home #banner-slider .owl-carousel .owl-nav button {
+                                          position: absolute;
+                                          top: 30%;
+                                          outline: none;
+                                      }
+                                      
+                                      #main-home #banner-slider .owl-carousel .owl-nav button.owl-prev {
+                                          left: 0;
+                                      }
+                                      
+                                      #main-home #banner-slider .owl-carousel .owl-nav button.owl-next {
+                                          right: 0;
+                                      }
+                                      
+                                      #main-home #banner-slider .owl-carousel .owl-nav button span {
+                                          font-size: 56px;
+                                          padding: 0 1rem;
+                                          color: #e48100;
+                                      }
+                                      
+                                      #main-home #banner-slider .owl-carousel .owl-nav button.owl-prev span {
+                                          margin-left: -5rem;
+                                      }
+                                      
+                                      #main-home #banner-slider .owl-carousel .owl-nav button.owl-next span {
+                                          margin-right: -5rem;
+                                      }
+                                      
+                                      #main-home #banner-slider .owl-carousel .owl-dots button.active span {
+                                          background-color: #e48100;
+                                      }
+                                      
+                                      button:focus {
+                                          outline: 0px auto -webkit-focus-ring-color;
+                                      }
+                                      
+                                      #banner-slider .owl-carousel div div .slider-content {
+                                          display: flex;
+                                          flex-direction: column;
+                                          /* justify-items: center; */
+                                          justify-content: center;
+                                          align-items: baseline;
+                                          /* vertical-align: bottom;*/
+                                      }
+                                      
+                                      .main-homepage {
+                                          background: linear-gradient(#ffffffe0, #ffffffe0), url(img/5.jpg);
+                                          background-size: 100% 100%;
+                                          background-attachment: fixed;
+                                          background-repeat: no-repeat;
+                                      }
+                                      
+                                      #popup-model {
+                                          background: linear-gradient(#ffffff85, #ffffff85), url(img/modal-img/bg.jpg);
+                                          background-size: 100% 100%;
+                                          background-attachment: fixed;
+                                          background-repeat: no-repeat;
+                                      }
+                                      /* Responsive */
+                                      
+                                      @media only screen and (max-width: 992px) {
+                                          #banner-slider div .item .row div img {
+                                              height: 150px;
+                                              width: auto;
+                                          }
+                                          #banner-slider {
+                                              width: 95%;
+                                              margin: auto;
+                                          }
+                                          .collapse .navbar-nav .cart-icon {
+                                              margin-left: 15px;
+                                          }
+                                          #main-home #banner-slider .owl-carousel .owl-nav button {
+                                              display: none;
+                                          }
+                                          #main-home #banner-slider .owl-carousel .item h1 {
+                                              font-size: 30px;
+                                          }
+                                          #main-home #banner-slider .owl-carousel .item h4 {
+                                              font-size: 20px;
+                                          }
+                                          #main-home #banner-slider .owl-carousel .item p {
+                                              font-size: 15px;
+                                          }
+                                          #popup-model .container .row .offer h3:nth-child(1) {
+                                              transform: translate(11px, -4px) !important;
+                                          }
+                                      }
+                                      
+                                      @media only screen and (max-width: 576px) {
+                                          .column-model-img {
+                                              flex: 100% !important;
+                                              max-width: 100% !important;
+                                          }
+                                          #popup-model .container .row div h2 {
+                                              font-size: 1.5rem !important;
+                                              font-weight: 600;
+                                              padding-bottom: 0px;
+                                          }
+                                          #popup-model .container .row .offer h3:nth-child(1) {
+                                              transform: translate(11px, -4px) !important;
+                                              font-size: 1.2rem !important;
+                                          }
+                                          #popup-model .container .row .offer h3:nth-child(2) {
+                                              width: 80% !important;
+                                              font-size: 1.2rem !important;
+                                              transform: translate(6px, -2px) rotate(13deg) !important;
+                                          }
+                                      }
+                                      
+                                      @media only screen and (max-width: 768px) {
+                                          #popup-model .container .row .offer h3:nth-child(1) {
+                                              transform: translate(11px, 4px) !important;
+                                          }
+                                          #popup-model .container .row .offer h3:nth-child(2) {
+                                              transform: translate(-20px, -8px) rotate(16deg) !important;
+                                          }
+                                      }
+                                      
+                                      #popup-model .container .row {
+                                          display: flex;
+                                          flex-wrap: wrap;
+                                          padding: 0;
+                                      }
+                                      
+                                      .column-model-img {
+                                          flex: 25%;
+                                          max-width: 33.3%;
+                                          padding: 0px;
+                                      }
+                                      
+                                      .column-model-img img {
+                                          vertical-align: middle;
+                                          width: 100%;
+                                          cursor: pointer;
+                                          transition: 0.3s linear;
+                                      }
+                                      
+                                      .column-model-img div p {
+                                          position: absolute;
+                                          transition: .5s;
+                                          bottom: -8rem;
+                                          left: 0;
+                                          background-color: #000000c2;
+                                      }
+                                      
+                                      .column-model-img div {
+                                          overflow: hidden;
+                                      }
+                                      
+                                      .column-model-img div:hover p {
+                                          bottom: 0% !important;
+                                          left: 0;
+                                          margin: 0;
+                                          transition: .5s;
+                                          color: #e48100;
+                                      }
+                                      
+                                      #popup-model .container .row div h2,
+                                      .gallery-menu h2 {
+                                          font-size: 2.8rem;
+                                          font-weight: 600;
+                                          color: #bd2918;
+                                      }
+                                      
+                                      #popup-model .container .row .offer {
+                                          transform: rotate(-12deg);
+                                          position: absolute;
+                                          top: 0;
+                                          left: 0;
+                                          color: #d40000;
+                                          z-index: 99999;
+                                      }
+                                      
+                                      #popup-model .container .row .offer h3:nth-child(1) {
+                                          clip-path: polygon(0 0, 100% 0, 94% 50%, 100% 100%, 0 100%, 6% 50%);
+                                          padding: 10px 20px 10px 20px;
+                                          background: #ffbc00;
+                                          color: #bd2918;
+                                          transform: translate(-35px, -50px);
+                                      }
+                                      
+                                      #popup-model .container .row .offer h3:nth-child(2) {
+                                          clip-path: polygon(0 0, 100% 0, 94% 50%, 100% 100%, 0 100%, 6% 50%);
+                                          padding: 10px 15px 10px 15px;
+                                          background: #bd2918;
+                                          color: #ffbc00;
+                                          transform: translate(-20px, -58px) rotate(8deg);
+                                          width: 60%;
+                                          text-align: center;
+                                      }
+                                      /* our Menu */
+                                      
+                                      .work {
+                                          padding-bottom: 40px;
+                                          margin-top: 60px;
+                                      }
+                                      
+                                      .work * {
+                                          box-sizing: border-box;
+                                      }
+                                      
+                                      .work .category-buttons {
+                                          text-align: center;
+                                          margin: 0 0 60px 0;
+                                      }
+                                      
+                                      @media (max-width: 610px) {
+                                          .work .category-buttons {
+                                              margin: 0 0 30px 0;
+                                          }
+                                          .work .category-buttons a {
+                                              display: inline-block;
+                                              width: 46%;
+                                              padding: 12px 10px !important;
+                                              margin: 1.5% 1% !important;
+                                          }
+                                          .work .category-buttons a:nth-child(even) {
+                                              margin-right: 0;
+                                          }
+                                          .work .category-buttons a:nth-child(odd) {
+                                              margin-left: 0;
+                                          }
+                                      }
+                                      
+                                      @media (min-width: 611px) {
+                                          .work .category-buttons a:first-child {
+                                              margin-left: 0;
+                                          }
+                                          .work .category-buttons a:last-child {
+                                              margin-right: 0;
+                                          }
+                                      }
+                                      
+                                      .work .category-buttons a {
+                                          color: #000000;
+                                          text-decoration: none;
+                                          padding: 9px 15px;
+                                          border: 1px solid #000000;
+                                          margin: 0 10px;
+                                          cursor: pointer;
+                                      }
+                                      
+                                      .work .category-buttons a.active {
+                                          color: #bd2918;
+                                          border: 1px solid #bd2918;
+                                      }
+                                      
+                                      .work .grid {
+                                          margin-top: 40px;
+                                          width: 100%;
+                                          max-width: 960px;
+                                          margin: 0 auto;
+                                          position: relative;
+                                          -webkit-transition: all 750ms cubic-bezier(1, 0, 0, 1);
+                                          transition: all 750ms cubic-bezier(1, 0, 0, 1);
+                                      }
+                                      
+                                      @media (max-width: 960px) {
+                                          .work .grid {
+                                              width: 700px;
+                                          }
+                                      }
+                                      
+                                      @media (max-width: 720px) {
+                                          .work .grid {
+                                              width: 100%;
+                                          }
+                                      }
+                                      
+                                      .work .grid .animating {
+                                          -webkit-transition: all 750ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+                                          transition: all 750ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+                                      }
+                                      
+                                      .work .grid .setScale {
+                                          -webkit-transform: scale(1);
+                                          -ms-transform: scale(1);
+                                          transform: scale(1);
+                                      }
+                                      
+                                      .work .grid .show {
+                                          -webkit-transform: scale(1);
+                                          -ms-transform: scale(1);
+                                          transform: scale(1);
+                                          opacity: 1;
+                                      }
+                                      
+                                      .work .card {
+                                          background: #fff;
+                                          display: block;
+                                          text-decoration: none;
+                                          color: #2b2b2b;
+                                          width: 32%;
+                                          box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 5px rgba(0, 0, 0, 0.15);
+                                          transform-origin: center center;
+                                          -webkit-transform: translateZ(0);
+                                          -moz-transform: translateZ(0);
+                                          -ms-transform: translateZ(0);
+                                          -o-transform: translateZ(0);
+                                          transform: translateZ(0);
+                                          -webkit-transform: scale(0);
+                                          -ms-transform: scale(0);
+                                          transform: scale(0);
+                                          opacity: 0;
+                                      }
+                                      
+                                      @media (max-width: 700px) {
+                                          .work .card {
+                                              width: 49.25%;
+                                          }
+                                      }
+                                      
+                                      @media (max-width: 480px) {
+                                          .work .card {
+                                              width: 100%;
+                                          }
+                                      }
+                                      
+                                      .work .card img {
+                                          display: block;
+                                          width: 100%;
+                                      }
+                                      
+                                      .work .card .title {
+                                          padding: 10px;
+                                          color: #2b2b2b;
+                                      }
+                                      
+                                      .work .guide {
+                                          width: 32%;
+                                          position: absolute;
+                                          left: 0;
+                                          top: 0;
+                                          z-index: -1000;
+                                      }
+                                      
+                                      @media (max-width: 700px) {
+                                          .work .guide {
+                                              width: 49.25%;
+                                          }
+                                      }
+                                      
+                                      @media (max-width: 480px) {
+                                          .work .guide {
+                                              width: 100%;
+                                          }
+                                      }
+                                      
+                                      #grid a:nth-child(n) {
+                                          height: auto !important;
+                                      }
+                                      
+                                      .our-menu-main {
+                                          background: linear-gradient(#ffffff8c, #ffffff8c), url(img/bg-our-menu.jpg);
+                                          background-size: 100% 100% !important;
+                                          background-attachment: fixed;
+                                          background-repeat: no-repeat;
+                                      }
