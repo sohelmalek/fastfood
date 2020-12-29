@@ -7,6 +7,10 @@
                                           /* Firefox */
                                       }
                                       
+                                      header {
+                                          border-bottom: 1px solid #c1c1c1;
+                                      }
+                                      
                                       body::-webkit-scrollbar {
                                           display: none;
                                       }
@@ -19,16 +23,20 @@
                                           display: block !important;
                                       }
                                       
-                                      #main-home .header-top div .item a {
+                                      #main-home .header-top div .item a,
+                                      .footer-icon div a,
+                                      .nav-pills .nav-item a {
                                           color: #000000;
                                       }
                                       
                                       #navbarSupportedContent .navbar-nav .nav-item .nav-link {
                                           padding: 15px;
                                           color: #000000;
+                                          font-size: 17px;
                                       }
                                       
-                                      #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
+                                      #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover,
+                                      .footer-icon div a:hover {
                                           color: #e48100;
                                       }
                                       
@@ -152,6 +160,7 @@
                                           }
                                           .collapse .navbar-nav .cart-icon {
                                               margin-left: 15px;
+                                              margin-bottom: 10px !important;
                                           }
                                           #main-home #banner-slider .owl-carousel .owl-nav button {
                                               display: none;
@@ -450,6 +459,13 @@
                                           background-repeat: no-repeat;
                                       }
                                       
+                                      .Gallery-main {
+                                          background: linear-gradient(#ffffff8c, #ffffff8c), url('https://images.unsplash.com/photo-1595879676557-a8de8e8806be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fHBpenphJTIwYnVyZ2VyJTIwZ2FsbGVyeXxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+                                          background-size: 100% 100% !important;
+                                          background-attachment: fixed;
+                                          background-repeat: no-repeat;
+                                      }
+                                      
                                       .contact-h1 {
                                           font-size: 4rem;
                                           font-weight: 900;
@@ -635,4 +651,19 @@
                                           display: flex;
                                           flex-direction: column;
                                           justify-content: center;
+                                      }
+                                      
+                                      .navbar .navbar-brand {
+                                          font-size: 2.5rem;
+                                          color: #d26e08;
+                                      }
+                                      
+                                      .navbar-brand:hover {
+                                          color: #d26e08 !important;
+                                      }
+                                      
+                                      .nav-pills .nav-link.active,
+                                      .nav-pills .show>.nav-link {
+                                          color: #fff;
+                                          background-color: #e48100 !important;
                                       }
