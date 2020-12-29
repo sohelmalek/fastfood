@@ -5,10 +5,13 @@ $('.owl-carousel').owlCarousel({
     nav: true
 
 });
+// gallery page gallery
+var elem = document.querySelector('.m-p-g');
+document.addEventListener('DOMContentLoaded', function() {
+    var gallery = new MaterialPhotoGallery(elem);
+});
 
-
-
-// filter gallery
+// filter gallery our menu page
 $(document).ready(function() {
     var projects = $(".card");
     var filteredProjects = [];

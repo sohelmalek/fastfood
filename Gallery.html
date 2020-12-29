@@ -17,15 +17,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss.sass">
+
     <title>Burger</title>
 </head>
 
 <body>
     <!-- Main Home Section -->
-    <section id="main-home" class="our-menu-main">
+    <section id="main-home" class="Gallery-main">
         <!-- header start-->
         <header>
+
             <div class="container">
+
                 <div class="header-top row pt-2">
                     <div class="d-flex col-12  col-sm-5">
                         <div class="item px-1">
@@ -60,17 +64,16 @@
                         <img height="50px" src="img/img (1).jpg" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item ">
-                                <a class="nav-link" href="index.html">Home <span
-                                            class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="Our Menu.html">Our Menu</a>
+                                <a class="nav-link" href="Our Menu.html">Our Menu</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Offer</a>
@@ -79,7 +82,7 @@
                                 <a class="nav-link" href="Gallery.html">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Contact us.html">Contact</a>
+                                <a class="nav-link active" href="Contact us.html">Contact</a>
                             </li>
 
                             <div class="cart-icon my-auto ">
@@ -89,76 +92,45 @@
 
                     </div>
                 </nav>
+
+                <div class="w-100 pt-3 pt-md-5 text-center">
+                    <h2 class="pt-3">WE OFFER DELICIOUS BURGERS, HOT DOGS, PIZZAS,...</h2>
+                </div>
+                <div class="gallery">
+
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8YnVyZ2VyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <div class="card__head">Italian Burger</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1527133256227-fc3549f55332?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fHBpenphfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <div class="card__head">Chiz Pizza</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1542344807-21226ec94b39?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aG90JTIwZG9nfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <div class="card__head">HotDogs</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1514178255089-603d3a35b24a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGVwc2l8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                        <div class="card__head">Coca Cola</div>
+                    </div>
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1551360021-0ff7982d13dc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=526&q=80">
+                        <div class="card__head">Spicy Burger</div>
+                    </div>
+
+
+                    <script>
+                    </script>
+                </div>
             </div>
+
+
 
         </header>
         <!-- header end-->
-        <!-- gallery -->
-        <div class="gallery-menu py-5">
-            <div class="container text-center">
-                <h2>
-                    OUR MENU
-                </h2>
-                <p>
-                    We have best burgers. Check our complete menu
 
-                </p>
-            </div>
-            <div class="work">
-                <div class="category-buttons">
-                    <a href="#" class="active all" data-group="all">All</a>
-                    <a href="#" data-group="Burger">Burger</a>
-                    <a href="#" data-group="Pizza">Pizza</a>
-                    <a href="#" data-group="Hotdog">Hotdog</a>
-                    <a href="#" data-group="Soft Drinks">Soft Drinks</a>
 
-                </div>
-
-                <div id="grid" class="grid">
-                    <a class="card" href="#" data-groups="Burger,">
-                        <img src="img/img (3).png" />
-
-                    </a>
-                    <a class="card" href="#" data-groups="Pizza,">
-                        <img src="img/pizza (1).jpg" />
-
-                    </a>
-                    <a class="card" href="#" data-groups="Hotdog,">
-                        <img src="img/hotdog (1).jpg" />
-
-                    </a>
-                    <a class="card" href="#" data-groups="Soft Drinks,">
-                        <img src="img/softdrink (1).jpg" />
-
-                    </a>
-                    <a class="card" href="#" data-groups="Hotdog,">
-                        <img src="img/hotdog (2).jpg" />
-
-                    </a>
-                    <a class="card" href="#" data-groups="Burger,">
-                        <img src="img/img (4).png" />
-
-                    </a>
-                    <a class="card" href="#" data-groups="Pizza,Hotdog,">
-                        <img src="img/hotdog (3).jpg" />
-
-                    </a>
-                    <a class="card" href="#" data-groups="Hotdog,">
-                        <img src="img/hotdog (4).jpg" />
-
-                    </a>
-                    <a class="card" href="#" data-groups="Soft Drinks,">
-                        <img src="img/softdrink (2).jpg" />
-
-                    </a>
-                    <a class="card" href="#" data-groups="Hotdog">
-                        <img src="img/hotdog (2).jpg" />
-
-                    </a>
-                    <div class="guide"></div>
-                </div>
-            </div>
-        </div>
         <!-- footer -->
         <div class="footer">
             <footer class="container text-dark py-md-5 border-top">
@@ -306,7 +278,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
     
     -->
-
+    <script>
+    </script>
 </body>
 
 </html>
